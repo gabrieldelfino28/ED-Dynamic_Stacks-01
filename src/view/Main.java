@@ -1,14 +1,12 @@
 package view;
 
-import java.awt.HeadlessException;
-
 import javax.swing.JOptionPane;
 import controller.ConverteController;
 import model.PilhaString;
 
 public class Main {
 
-	public static void main(String[] args) throws HeadlessException, Exception {
+	public static void main(String[] args) {
 
 		PilhaString p = new PilhaString();
 		ConverteController c = new ConverteController(p);
